@@ -6,7 +6,7 @@ The projet structure is taken from the [nvim-plugin-template](https://github.com
 
 ## Completed so far
 
-### 1. `nvim-hello-command`
+### 1. `:HelloLua`
 
 Creates a `:HelloLua` user command that print "Hello from Lua".
 
