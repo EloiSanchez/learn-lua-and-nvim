@@ -9,4 +9,7 @@ require('learn-lua-and-nvim.mini_plugins.echo_info')
 -- 3. Display number of current open buffers
 require('learn-lua-and-nvim.mini_plugins.buffer_count')
 
+-- 4. Trim whitespace on save
+require('learn-lua-and-nvim.mini_plugins.trim_on_save')
+
 return M
