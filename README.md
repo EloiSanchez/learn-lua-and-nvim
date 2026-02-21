@@ -31,3 +31,9 @@ See [buffer_count.lua](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/ma
 Createas an autocmd (see `:h autocmd`) that trims whitespaces of all the lines in the buffer when saving. Also creates a user command (`:TrimLines`) that does the same.
 
 See [trim_on_save.lua](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/main/lua/learn-lua-and-nvim/mini_plugins/trim_on_save.lua)
+
+### 5. `:ToggleRNU`
+
+Creates user command `:ToggleRNU` that toggles relative number in current buffer. Interesting to see the differences between `vim.o`, `vim.bo`, `vim.opt`... (See `:h lua-options`)
+
+See [toggle_rnu.lua](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/main/lua/learn-lua-and-nvim/mini_plugins/toggle_rnu.lua)

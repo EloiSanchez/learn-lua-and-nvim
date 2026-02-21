@@ -12,4 +12,7 @@ require('learn-lua-and-nvim.mini_plugins.buffer_count')
 -- 4. Trim whitespace on save
 require('learn-lua-and-nvim.mini_plugins.trim_on_save')
 
+-- 5. Toggle relative number
+require('learn-lua-and-nvim.mini_plugins.toggle_rnu')
+
 return M
