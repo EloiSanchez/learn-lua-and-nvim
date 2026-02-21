@@ -37,3 +37,9 @@ See [trim_on_save.lua](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/ma
 Creates user command `:ToggleRNU` that toggles relative number in current buffer. Interesting to see the differences between `vim.o`, `vim.bo`, `vim.opt`... (See `:h lua-options`)
 
 See [toggle_rnu.lua](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/main/lua/learn-lua-and-nvim/mini_plugins/toggle_rnu.lua)
+
+### 6. Notify entered buffer filename
+
+Create autocmd that sends notification when entering a buffer (see `:h BufEnter`).
+
+See [file_notifier](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/main/lua/learn-lua-and-nvim/mini_plugins/file_notifier.lua)

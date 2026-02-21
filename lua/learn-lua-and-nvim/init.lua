@@ -15,4 +15,7 @@ require('learn-lua-and-nvim.mini_plugins.trim_on_save')
 -- 5. Toggle relative number
 require('learn-lua-and-nvim.mini_plugins.toggle_rnu')
 
+-- 6. File notifier
+M.file_notifier = require('learn-lua-and-nvim.mini_plugins.file_notifier')
+
 return M
