@@ -43,3 +43,9 @@ See [toggle_rnu.lua](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/main
 Create autocmd that sends notification when entering a buffer (see `:h BufEnter`).
 
 See [file_notifier](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/main/lua/learn-lua-and-nvim/mini_plugins/file_notifier.lua)
+
+### 7. Create keymaps
+
+Create keymap for function created in section 6.
+
+See [file_notifier](https://github.com/EloiSanchez/learn-lua-and-nvim/blob/main/lua/learn-lua-and-nvim/mini_plugins/file_notifier.lua)

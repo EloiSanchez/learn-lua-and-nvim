@@ -10,4 +10,13 @@ vim.api.nvim_create_autocmd('BufEnter', {
   callback = M.send_file_notification,
 })
 
+-- Create keymap
+vim.api.nvim_set_keymap(
+  'n',
+  '<leader>be',
+  '',
+
+  { desc = 'Sends notification with name of current buffer', callback = M.send_file_notification }
+)
+
 return M
